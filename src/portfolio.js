@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Danskie",
+  title: "Hi all, I'm Mark Daniel Ponce",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Dart / Reactjs / Nodejs / React Native / Flutter and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/102R7PZh4jvmPB_oYOT4DZI4bfXuwr1Lo/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/danskie02",
+  linkedin: "https://www.linkedin.com/in/ponce-mark-daniel-o-7978302a2",
+  gmail: "markdanielponce035@gmail.com",
+  gitlab: "https://gitlab.com/markdanielponce035",
+  facebook: "https://www.facebook.com/markdaniel.ponce.14",
+  medium: "https://medium.com/@markdanielponce035",
+  stackoverflow: "https://stackoverflow.com/users/31417182/ponce-mark-daniel-o",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -52,11 +52,11 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Progressive Web Applications ( PWA ) integrated with remote or local database"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Firebase"
     )
   ],
 
@@ -73,10 +73,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
@@ -89,10 +85,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
@@ -101,20 +93,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +110,12 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Marinduque Sate University (MarSU)",
+      logo: require("./assets/images/marsu_logo.png"),
+      subHeader: "Bachelor of Science in Computer Engineering",
+      duration: " September 2022 - Present",
+      desc: "Consistent Dean's Lister of the program. Took courses about:",
+      descBullets: ["Software Design", "Software Engineering", "Web Security", "Operating Systems", "Networking", "Digital Signal Processing", "Computer Architecture"],
     }
   ]
 };
@@ -154,7 +127,7 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "60%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
@@ -174,29 +147,22 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "SPES Intern",
+      company: "Boac LGU",
+      companylogo: require("./assets/images/boac_lgu.jfif"),
+      date: "Batch 2019 & Batch 2023",
+      desc: "Worked under Brgy. Amoingon's LGU as an assistant of the Secretary, familiarizing oneself with document and certification processes and issuance. This experience fueled my desire to work on personal project such as:",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "LGU Digital Document & Certification Request System",
+        "Local Promotional Website for Local Businesses"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "DOST-JLSS Intern",
+      company: "PSTO-Marinduque",
+      companylogo: require("./assets/images/dost_mimaropa.png"),
+      date: "July 2025 - August 2025",
+      desc: "Worked under the supervision of the PSTO-Marinduqe Director and developed an integrated system with mobile application for modern butterfly farming as a solution to the challenges faced by local butterfly farmers."
     }
   ]
 };
@@ -206,99 +172,157 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "SOME SOFTWARE PROJECTS THAT I'VE WORKED ON AND BEEN INVOLVED IN",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/boac_lgu.jfif"),
+      projectName: "Brgy. Amoingon's Local Portal",
+      projectDesc: "A digitalized approach of requesting barangay documents and certifications such as 1) Brgy. Clearance 2) Brgy. Business Clearance 3) brgy. Conformance making the process easier, more flexible, and transparent",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Examine Website",
+          url: "https://drive.google.com/file/d/16I4M8AppU3z8HujA9odt_GodmX8g9fcO/view?usp=drive_link"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/boac_lgu.jfif"),
+      projectName: "Brgy. Amoingon's Local Businesses Promotional Website",
+      projectDesc: "A repository of local businesses within the area with description, contact details, and location tracking supported by Google Maps",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Examine Website",
+          url: "https://drive.google.com/file/d/1DEdtktH3lhZJ4A7invaoLcyL_7iCb1tp/view?usp=drive_link"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/bfly_logo.png"),
+      projectName: "Better-Fly's Integrated Mobile App",
+      projectDesc: "This is a work in progress, an integrated mobile app that monitors and controls the environment within a prorotype enclosure, it also examines the food level percentage of the butterfly larvae inside and alert the farmers if the food run out or the system encounter some problems",
+      footerLink: [
+        {
+          name: "Examine Website",
+          url: "https://drive.google.com/file/d/1XiS8EK8xFe3FmZ_JpkXluH8G3NOKDGGW/view?usp=drive_link"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/rf_logo.png"),
+      projectName: "Rezidencia Faeldo's Food Ordering System",
+      projectDesc: "This is a work in progress, a food ordering system for a restaurant within the province which aims to increase their quality of service, flexibility, and increase the reach of their target customers.",
+      footerLink: [
+        {
+          name: "Examine Website",
+          url: "https://drive.google.com/file/d/1KQKxS1SvHJwqCuL-fTo6HjA2VKQNtwZt/view?usp=drive_link"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true// Set false to hide this section, defaults to true
 };
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Certifications 🏆"),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Completed Fundamentals of Technical Support Course",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "A course offered by Coursera that teaches the basics of technical support, troubleshooting, and customer service.",
+      image: require("./assets/images/cour_logo.png"),
+      //imageAlt: "Google Code-In Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "View Certificate",
+          url: "https://coursera.org/share/f5186f1519bdf17776545609852184fd"
         }
       ]
     },
+    
     {
-      title: "Google Assistant Action",
+      title: "Completed Fundamentals of Computer Networking Course",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "A course offered by Coursera that teaches the basics of computer networking and its protocols.",
+      image: require("./assets/images/cour_logo.png"),
+      //imageAlt: "Google Code-In Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Certificate",
+          url: "https://coursera.org/share/6b233a930ff511bcfb315b542470a388"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Completed Advanced Operating Systems Course",
+      subtitle:
+        "A course offered by Coursera that teaches in-depth understanding and knowledge about operating systems.",
+      image: require("./assets/images/cour_logo.png"),
+      //imageAlt: "Google Code-In Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "View Certificate",
+          url: "https://coursera.org/share/f89545a1725aafa04014978a492c319f"
         }
       ]
-    }
+    },
+
+    {
+      title: "Completed System Administration and IT Infrastructure Services Course",
+      subtitle:
+        "A course offered by Coursera that delves in the roles and skills required for a system admin and IT infrastructure services.",
+      image: require("./assets/images/cour_logo.png"),
+      //imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://coursera.org/share/3f68d3a92acd9d7d8d4fc03dc4db3c96"
+        }
+      ]
+    },
+
+    {
+      title: "Completed Introduction to Cybersecurity Foundation Course",
+      subtitle:
+        "A course offered by Coursera that delves in the foundation and basics of cybersecurity.",
+      image: require("./assets/images/cour_logo.png"),
+      //imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://coursera.org/share/b18a8e612a7db5617fc67a92cca34926"
+        }
+      ]
+    },
+
+    {
+      title: "Completed Introduction to Cybersecurity Foundation Course",
+      subtitle:
+        "A course offered by CISCO Networking Academy that delves depper in the foundation and basics of cybersecurity.",
+      image: require("./assets/images/c_logo.jfif"),
+      //imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://drive.google.com/file/d/11Y27KvxlaGjI_96yBfv58IIH5vxiFlul/view?usp=drive_link"
+        }
+      ]
+    },
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -324,7 +348,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +367,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +380,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -372,15 +396,15 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+910-353-8912",
+  email_address: "markdanielponce035@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
