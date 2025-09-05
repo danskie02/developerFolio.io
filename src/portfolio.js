@@ -252,7 +252,7 @@ const achievementSection = {
         }
       ]
     },
-    
+
     {
       title: "Completed Fundamentals of Computer Networking Course",
       subtitle:
@@ -312,7 +312,7 @@ const achievementSection = {
     {
       title: "Completed Introduction to Cybersecurity Foundation Course",
       subtitle:
-        "A course offered by CISCO Networking Academy that delves depper in the foundation and basics of cybersecurity.",
+        "A course offered by CISCO Networking Academy that delves deeper in the foundation and basics of cybersecurity.",
       image: require("./assets/images/c_logo.jfif"),
       //imageAlt: "Google Code-In Logo",
       footerLink: [
