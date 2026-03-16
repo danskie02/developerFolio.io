@@ -122,10 +122,19 @@
 
 @media (max-width: 768px) {
   .education-card {
+    flex-direction: column;
+    align-items: stretch;
     text-align: center;
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    margin-bottom: 20px;
   }
   .education-card-right {
     max-width: 100%;
+    align-items: flex-start;
+    text-align: left;
+    padding: 0 8px;
   }
   .education-card-border {
     width: 100%;
@@ -136,9 +145,11 @@
     height: 4rem;
     margin-bottom: 1rem;
     margin-right: 0;
+    align-self: center;
   }
   .education-text-bullets > ul {
-    max-width: 80%;
-    margin: auto;
+    max-width: 100%;
+    margin: 0;
+    padding-left: 18px;
   }
 }
