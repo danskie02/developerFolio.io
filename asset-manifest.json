@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/developerFolio.io/static/css/main.c9331e8c.css",
+    "main.css": "/developerFolio.io/static/css/main.c0d88714.css",
     "main.js": "/developerFolio.io/static/js/main.0998ac4d.js",
     "static/css/64.bba8fa55.chunk.css": "/developerFolio.io/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/developerFolio.io/static/js/64.56dc6704.chunk.js",
@@ -20,7 +20,7 @@
     "static/media/cafe_logo.jfif": "/developerFolio.io/static/media/cafe_logo.6440a11aa579f92e7361.jfif",
     "index.html": "/developerFolio.io/index.html",
     "static/media/talksCardBack.svg": "/developerFolio.io/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.c9331e8c.css.map": "/developerFolio.io/static/css/main.c9331e8c.css.map",
+    "main.c0d88714.css.map": "/developerFolio.io/static/css/main.c0d88714.css.map",
     "main.0998ac4d.js.map": "/developerFolio.io/static/js/main.0998ac4d.js.map",
     "64.bba8fa55.chunk.css.map": "/developerFolio.io/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/developerFolio.io/static/js/64.56dc6704.chunk.js.map",
@@ -28,7 +28,7 @@
     "769.bda0d7b7.chunk.js.map": "/developerFolio.io/static/js/769.bda0d7b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9331e8c.css",
+    "static/css/main.c0d88714.css",
     "static/js/main.0998ac4d.js"
   ]
 }
